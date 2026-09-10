@@ -25,3 +25,11 @@ Then open the local Vite URL shown in the terminal.
 ```bash
 npm run build
 ```
+
+## Assignment checklist
+- 12 technology entries
+- 3-column desktop / 2-column tablet / 1-column mobile grid
+- Add to Stack, duplicate protection, remove, and Remove All
+- Loading spinner for local JSON fetch simulation
+- Shared `--gradient` theme variable
+- Sticky desktop navbar + mobile menu
