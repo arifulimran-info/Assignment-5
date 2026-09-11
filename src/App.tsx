@@ -1,3 +1,25 @@
-import { ToastContainer } from 'react-toastify';
-import Navbar from './components/Navbar'; import Hero from './components/Hero'; import Technologies from './components/Technologies'; import Footer from './components/Footer'; import 'react-toastify/dist/ReactToastify.css'; import './styles.css';
-export default function App(){return <><Navbar/><main><Hero/><Technologies/><section id="about" className="about container"><div><p className="section-kicker">WHY DEV STACK?</p><h2>Build with confidence.</h2></div><p>Dev Stack keeps your learning and project decisions focused. Compare categories, understand difficulty, and curate a toolkit that grows with you.</p></section></main><Footer/><ToastContainer position="bottom-right" autoClose={2200} hideProgressBar theme="light"/></>}
+import { ToastContainer } from "react-toastify";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Technologies from "./components/Technologies";
+import Footer from "./components/Footer";
+import "react-toastify/dist/ReactToastify.css";
+import "./styles.css";
+export default function App() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <Technologies />
+      </main>
+      <Footer />
+      <ToastContainer
+        position="bottom-right"
+        autoClose={2200}
+        hideProgressBar
+        theme="light"
+      />
+    </>
+  );
+}
