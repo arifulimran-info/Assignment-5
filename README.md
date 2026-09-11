@@ -3,6 +3,7 @@
 A responsive React + TypeScript implementation of the Dev Stack assignment.
 
 ## Features
+
 - Sticky responsive navbar and mobile menu
 - Gradient hero matching the provided design direction
 - Local JSON technology data with loading state
@@ -14,6 +15,7 @@ A responsive React + TypeScript implementation of the Dev Stack assignment.
 - Shared orange → pink → violet CSS gradient variable
 
 ## Run locally
+
 ```bash
 npm install
 npm run dev
@@ -22,11 +24,13 @@ npm run dev
 Then open the local Vite URL shown in the terminal.
 
 ## Build
+
 ```bash
 npm run build
 ```
 
 ## Assignment checklist
+
 - 12 technology entries
 - 3-column desktop / 2-column tablet / 1-column mobile grid
 - Add to Stack, duplicate protection, remove, and Remove All
