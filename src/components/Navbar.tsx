@@ -15,7 +15,7 @@ export default function Navbar() {
         </button>
         <a className="brand" href="#home" aria-label="Dev Stack home">
           <span>
-            <img src="/public/assets/logo-text.png" alt="" />
+            <img src="/assets/logo-text.png" alt="" />
           </span>
         </a>
         <div className={`nav-links ${open ? "open" : ""}`}>

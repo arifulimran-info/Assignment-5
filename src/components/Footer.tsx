@@ -5,9 +5,9 @@ export default function Footer() {
       <footer id="contact" className="footer">
         <div className="container footer-grid">
           <div className="footer-brand">
-            <a className="brand" href="#home">
+            <a className="brand" href="#">
               <span>
-                <img src="/public/assets/logo-text.png" alt="" />
+                <img src="/assets/logo-text.png" alt="Logo" />
               </span>
             </a>
             <p>
